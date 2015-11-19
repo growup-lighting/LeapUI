@@ -1,0 +1,2145 @@
+﻿[2015.11.11-07.40.32:717][  0]Log file open, 11/11/15 16:40:32
+[2015.11.11-07.40.32:717][  0]LogInit:Display: Running engine for game: roll
+[2015.11.11-07.40.32:717][  0]LogInit:Display: RandInit(2051970034) SRandInit(2051970034).
+[2015.11.11-07.40.32:717][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.11.11-07.40.32:717][  0]LogStats: Stats thread started
+[2015.11.11-07.40.32:717][  0]LogInit: Version: 4.8.3-2634408+++depot+UE4-Releases+4.8
+[2015.11.11-07.40.32:717][  0]LogInit: API Version: 2579680
+[2015.11.11-07.40.32:717][  0]LogInit: Compiled (64-bit): Jul 27 2015 16:24:33
+[2015.11.11-07.40.32:717][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.11.11-07.40.32:717][  0]LogInit: Build Configuration: Development
+[2015.11.11-07.40.32:717][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.8
+[2015.11.11-07.40.32:717][  0]LogInit: Command line:  
+[2015.11.11-07.40.32:717][  0]LogInit: Base directory: D:/Program Files/Epic Games/4.8/Engine/Binaries/Win64/
+[2015.11.11-07.40.32:717][  0]LogInit: Rocket: 1
+[2015.11.11-07.40.32:728][  0]LogInit: Using libcurl 7.41.0
+[2015.11.11-07.40.32:728][  0]LogInit:  - built for x86_64-pc-win32
+[2015.11.11-07.40.32:728][  0]LogInit:  - supports SSL with WinSSL
+[2015.11.11-07.40.32:728][  0]LogInit:  - other features:
+[2015.11.11-07.40.32:728][  0]LogInit:      CURL_VERSION_SSL
+[2015.11.11-07.40.32:728][  0]LogInit:      CURL_VERSION_IPV6
+[2015.11.11-07.40.32:728][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.11.11-07.40.32:728][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.11.11-07.40.32:728][  0]LogInit:      CURL_VERSION_IDN
+[2015.11.11-07.40.32:728][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.11.11-07.40.32:728][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.11.11-07.40.32:728][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.11.11-07.40.32:728][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.11.11-07.40.32:728][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.11.11-07.40.32:738][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.11.11-07.40.32:751][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.11.11-07.40.32:757][  0]LogInit: Object subsystem initialized
+[2015.11.11-07.40.32:758][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.11.11-07.40.32:758][  0]LogConsoleResponse:Warning:   Found in ini file 'D:/Documents/GitHub/LeapUI/roll - Copy/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.11.11-07.40.32:758][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.11.11-07.40.32:758][  0]LogConsoleResponse:Warning:   Found in ini file 'D:/Documents/GitHub/LeapUI/roll - Copy/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.11.11-07.40.32:758][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.11.11-07.40.32:758][  0]LogConsoleResponse:Warning:   Found in ini file 'D:/Documents/GitHub/LeapUI/roll - Copy/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.11.11-07.40.32:759][  0]LogInit: Selected Device Profile: [Windows]
+[2015.11.11-07.40.32:759][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.11.11-07.40.32:765][  0]LogInit: Computer: DESKTOP-E7GQ0KF
+[2015.11.11-07.40.32:765][  0]LogInit: User: davis
+[2015.11.11-07.40.32:765][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.11.11-07.40.32:765][  0]LogInit: High frequency timer resolution =2.435767 MHz
+[2015.11.11-07.40.32:765][  0]LogMemory: Memory total: Physical=15.8GB (16GB approx)
+[2015.11.11-07.40.32:765][  0]LogMemory: Platform Memory Stats for Windows
+[2015.11.11-07.40.32:765][  0]LogMemory: Process Physical Memory: 51.20 MB used, 51.20 MB peak
+[2015.11.11-07.40.32:765][  0]LogMemory: Process Virtual Memory: 22.43 MB used, 23.29 MB peak
+[2015.11.11-07.40.32:765][  0]LogMemory: Physical Memory: 3459.74 MB used, 16211.04 MB total
+[2015.11.11-07.40.32:765][  0]LogMemory: Virtual Memory: 307.68 MB used, 134217728.00 MB total
+[2015.11.11-07.40.33:014][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Localization Resource: (D:/Program Files/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (-630476809) Localized String: (Import to {0}...)
+Localization Resource: (D:/Program Files/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (1271782899) Localized String: (Imports an asset from file to this folder.)
+[2015.11.11-07.40.33:464][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 860M     (Feature Level 11_0)
+[2015.11.11-07.40.33:464][  0]LogD3D11RHI: Adapter has 1995MB of dedicated video memory, 0MB of dedicated system memory, and 8105MB of shared system memory, 1 output[s]
+[2015.11.11-07.40.33:470][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics 4600 (Feature Level 11_0)
+[2015.11.11-07.40.33:470][  0]LogD3D11RHI: Adapter has 112MB of dedicated video memory, 0MB of dedicated system memory, and 8105MB of shared system memory, 0 output[s]
+[2015.11.11-07.40.33:472][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.11.11-07.40.33:472][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 8105MB of shared system memory, 0 output[s]
+[2015.11.11-07.40.33:472][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.11.11-07.40.33:475][  0]LogD3D11RHI: InitD3DDevice
+[2015.11.11-07.40.33:475][  0]LogD3D11RHI: !Direct3DDevice
+[2015.11.11-07.40.33:475][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.11.11-07.40.33:488][  0]LogD3D11RHI: Async texture creation enabled
+[2015.11.11-07.40.33:504][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.11.11-07.40.34:204][  0]LogTemp:Display: Loaded TP DesktopTargetPlatform
+[2015.11.11-07.40.34:219][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.11.11-07.40.34:236][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.11.11-07.40.34:248][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.11.11-07.40.34:261][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.11.11-07.40.34:271][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.11.11-07.40.34:281][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.11.11-07.40.34:291][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.11.11-07.40.34:301][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.11.11-07.40.34:312][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.11.11-07.40.34:322][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.11.11-07.40.34:333][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.11.11-07.40.34:384][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.11.11-07.40.34:394][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.11.11-07.40.34:405][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.11.11-07.40.34:417][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.11.11-07.40.34:417][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.11.11-07.40.34:600][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.11.11-07.40.34:649][  0]LogDerivedDataCache: Loaded boot cache 0.05s 53MB C:/Users/davis/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.11.11-07.40.34:649][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/davis/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc
+[2015.11.11-07.40.34:649][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Documents/GitHub/LeapUI/roll - Copy/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.11.11-07.40.34:649][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.11.11-07.40.34:649][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Documents/GitHub/LeapUI/roll - Copy/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.11.11-07.40.34:649][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.11.11-07.40.34:796][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.11.11-07.40.34:810][  0]LogDerivedDataCache: Using Local data cache path C:/Users/davis/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.11.11-07.40.34:997][  0]LogInit: Selected Device Profile: [Windows]
+[2015.11.11-07.40.35:074][  0]ImportText (ComponentSweepMultiTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",ShapeType="TriggerCapsule",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.11.11-07.40.35:074][  0]ImportText (LineTraceSingleByChannelTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.11.11-07.40.35:096][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.11.11-07.40.35:096][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.11.11-07.40.35:368][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.11.11-07.40.36:195][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.11.11-07.40.36:479][  0]SourceControl: Info Source control is disabled
+[2015.11.11-07.40.36:524][  0]SourceControl: Info Source control is disabled
+[2015.11.11-07.40.36:532][  0]SourceControl: Info Source control is disabled
+[2015.11.11-07.40.36:540][  0]SourceControl: Info Source control is disabled
+[2015.11.11-07.40.36:801][  0]LeapPluginLog: Using LeapPlugin version 0.9.5
+[2015.11.11-07.40.36:811][  0]LogObj: 26891 objects as part of root set at end of initial load.
+[2015.11.11-07.40.36:811][  0]LogUObjectAllocator: 5510376 out of 0 bytes used by permanent object pool.
+[2015.11.11-07.40.37:516][  0]LogEngine: Initializing Engine...
+[2015.11.11-07.40.37:555][  0]OCULUS: Info: [CAPI] LibOVR module is located at C:\WINDOWS\SYSTEM32\LibOVRRT64_0_6.dll
+
+[2015.11.11-07.40.38:157][  0]OCULUS: Error: [CAPI] ovrHmd_Create failed to complete within the timeout period.
+[2015.11.11-07.40.38:340][  0]LogHMD:Warning: SteamVR failed to initialize.  Error: 110
+[2015.11.11-07.40.39:271][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.11.11-07.40.39:457][  0]LogInit: XAudio2 using 'スピーカー (VIA HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.11-07.40.39:521][  0]LogInit: FAudioDevice initialized.
+[2015.11.11-07.40.39:554][  0]LogDerivedDataCache: Saved boot cache 0.03s 53MB C:/Users/davis/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.11.11-07.40.39:573][  0]LogInit: Texture streaming: Disabled
+[2015.11.11-07.40.39:613][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.11.11-07.40.39:614][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.8.3-2634408+++depot+UE4-Releases+4.8
+[2015.11.11-07.40.39:614][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId deef9a964707c777c45f94843d0183f3|a11a2bbafe684e7f8452a9fa32728a52|05e64c4f-a5dd-4c96-91ac-6b573ea93332
+[2015.11.11-07.40.39:614][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.11.11-07.40.39:786][  0]LogInit: Transaction tracking system initialized
+[2015.11.11-07.40.40:271][  0]BlueprintLog: New page: Editor Load
+[2015.11.11-07.40.40:394][  0]LogAssetRegistry: FAssetRegistry took 0.0147 seconds to start up
+[2015.11.11-07.40.40:394][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.11.11-07.40.51:853][  0]LogConsoleManager:Warning: Console variable 'r.VSync' wasn't set ('GameSetting' has a lower priority than 'SystemSettingsIni')
+[2015.11.11-07.40.51:854][  0]LogConsoleResponse:Display: 
+[2015.11.11-07.40.53:286][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.11.11-07.40.54:609][  0]SourceControl: Info Source control is disabled
+[2015.11.11-07.40.54:641][  0]Cmd: MAP LOAD FILE="../../../../../../Documents/GitHub/LeapUI/roll - Copy/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.11.11-07.40.54:647][  0]LightingResults: New page: Lighting Build
+[2015.11.11-07.40.54:791][  0]MapCheck: New page: Map Check
+[2015.11.11-07.40.54:791][  0]LightingResults: New page: Lighting Build
+[2015.11.11-07.40.54:901][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000019F4236200
+[2015.11.11-07.40.57:033][  0]LogBlueprint:Warning: [compiler LeapBasicRiggedCharacter] Warning InputAction Event references unknown Action 'Jump' for  InputAction Jump 
+[2015.11.11-07.40.57:033][  0]LogBlueprint:Warning: [compiler LeapBasicRiggedCharacter] Warning Input Axis Event references unknown Axis 'LookUpRate' for  InputAxis LookUpRate 
+[2015.11.11-07.40.57:034][  0]LogBlueprint:Warning: [compiler LeapBasicRiggedCharacter] Warning Input Axis Event references unknown Axis 'TurnRate' for  InputAxis TurnRate 
+[2015.11.11-07.40.57:035][  0]LogBlueprint:Warning: [compiler LeapBasicRiggedCharacter] Warning Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn 
+[2015.11.11-07.40.57:036][  0]LogBlueprint:Warning: [compiler LeapBasicRiggedCharacter] Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp 
+[2015.11.11-07.40.57:038][  0]LogBlueprint:Warning: [compiler LeapBasicRiggedCharacter] Warning Input Axis Event references unknown Axis 'MoveRight' for  InputAxis MoveRight 
+[2015.11.11-07.40.57:039][  0]LogBlueprint:Warning: [compiler LeapBasicRiggedCharacter] Warning Input Axis Event references unknown Axis 'MoveForward' for  InputAxis MoveForward 
+[2015.11.11-07.40.57:048][  0]LogBlueprint:Warning: [compiler LeapBasicRiggedCharacter] Warning [0025.54] Compile of LeapBasicRiggedCharacter successful, but with 7 Warning(s) [in 95 ms]
+[2015.11.11-07.40.57:049][  0]LogBlueprint:Warning: [compiler LeapBasicRiggedCharacter] Warning [0025.54] Compile of LeapBasicRiggedCharacter successful, but with 8 Warning(s) [in 0 ms]
+[2015.11.11-07.40.57:049][  0]LogBlueprint:Warning: [compiler LeapBasicRiggedCharacter] Warning [0025.54] Compile of LeapBasicRiggedCharacter successful, but with 9 Warning(s) [in 0 ms]
+[2015.11.11-07.40.57:092][  0]LogBlueprint:Warning: [compiler LeapBasicRiggedCharacter] Warning InputAction Event references unknown Action 'Jump' for  InputAction Jump 
+[2015.11.11-07.40.57:092][  0]LogBlueprint:Warning: [compiler LeapBasicRiggedCharacter] Warning Input Axis Event references unknown Axis 'LookUpRate' for  InputAxis LookUpRate 
+[2015.11.11-07.40.57:093][  0]LogBlueprint:Warning: [compiler LeapBasicRiggedCharacter] Warning Input Axis Event references unknown Axis 'TurnRate' for  InputAxis TurnRate 
+[2015.11.11-07.40.57:093][  0]LogBlueprint:Warning: [compiler LeapBasicRiggedCharacter] Warning Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn 
+[2015.11.11-07.40.57:093][  0]LogBlueprint:Warning: [compiler LeapBasicRiggedCharacter] Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp 
+[2015.11.11-07.40.57:094][  0]LogBlueprint:Warning: [compiler LeapBasicRiggedCharacter] Warning Input Axis Event references unknown Axis 'MoveRight' for  InputAxis MoveRight 
+[2015.11.11-07.40.57:094][  0]LogBlueprint:Warning: [compiler LeapBasicRiggedCharacter] Warning Input Axis Event references unknown Axis 'MoveForward' for  InputAxis MoveForward 
+[2015.11.11-07.40.57:098][  0]LogBlueprint:Warning: [compiler LeapBasicRiggedCharacter] Warning [0025.59] Compile of LeapBasicRiggedCharacter successful, but with 7 Warning(s) [in 35 ms]
+[2015.11.11-07.40.57:098][  0]LogBlueprint:Warning: [compiler LeapBasicRiggedCharacter] Warning [0025.59] Compile of LeapBasicRiggedCharacter successful, but with 8 Warning(s) [in 0 ms]
+[2015.11.11-07.40.59:053][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.11.11-07.40.59:733][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.11.11-07.40.59:801][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.11.11-07.40.59:893][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 92.088ms to complete.
+[2015.11.11-07.40.59:893][  0]LogFileHelpers: Loading map 'Minimal_Default' took 5.267
+[2015.11.11-07.41.01:336][  0]LogCollectionManager: Loaded 0 collections in 0.001414 seconds
+[2015.11.11-07.41.01:359][  0]LogContentBrowser: Native class hierarchy populated in 0.0236 seconds. Added 1818 classes and 305 folders.
+[2015.11.11-07.41.01:732][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2015.11.11-07.41.02:177][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2015.11.11-07.41.02:280][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0013 seconds. Added 1 classes and 2 folders.
+[2015.11.11-07.41.03:562][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.11.11-07.41.03:674][  0]LogD3D11RHI: InitD3DDevice
+[2015.11.11-07.41.03:771][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.11.11-07.41.03:855][  0]LogLoad: Full Startup: 32.35 seconds (BP compile: 1.80 seconds)
+[2015.11.11-07.41.03:877][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.11.11-07.41.04:254][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.11.11-07.41.04:383][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2015.11.11-07.41.04:816][  0]LogRenderer: Reallocating scene render targets to support 968x440 (Frame:2).
+[2015.11.11-07.41.06:024][ 11]LogAssetRegistry: Asset discovery search completed in 25.6412 seconds
+[2015.11.11-07.41.08:128][258]LogD3D11RHI: InitD3DDevice
+[2015.11.11-07.41.08:848][324]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.11.11-07.41.08:848][324]LogPlayLevel: [PIE] Compiling Minimal_Default before PIE...
+[2015.11.11-07.41.09:155][324]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2015.11.11-07.41.09:173][324]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2015.11.11-07.41.09:214][324]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2015.11.11-07.41.09:231][324]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2015.11.11-07.41.09:264][324]LogPlayLevel: PIE:  Blueprint regeneration took 427 ms (1 blueprints)
+[2015.11.11-07.41.09:440][324]PIE: New page: PIE session: Minimal_Default (Nov 12, 2015, 1:41:09 AM)
+[2015.11.11-07.41.09:440][324]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2015.11.11-07.41.09:454][324]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013314s)
+[2015.11.11-07.41.09:467][324]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.11.11-07.41.09:468][324]LogPlayLevel: PIE: World Init took: (0.001506s)
+[2015.11.11-07.41.09:468][324]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.027441s)
+[2015.11.11-07.41.09:519][324]LogInit: XAudio2 using 'スピーカー (VIA HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.11-07.41.09:534][324]LogInit: FAudioDevice initialized.
+[2015.11.11-07.41.09:616][324]LogWorld: Game class is 'NewBlueprint_C'
+[2015.11.11-07.41.09:629][324]LeapPluginLog: InterfaceObject: NewBlueprint_C_0
+[2015.11.11-07.41.09:747][324]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.11.11-16.41.09
+[2015.11.11-07.41.09:747][324]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.11-07.41.09:761][324]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.11-07.41.09:762][324]LogWorld: Bringing up level for play took: 0.022156
+[2015.11.11-07.41.09:952][324]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_0
+[2015.11.11-07.41.09:952][324]LeapPluginLog:Warning: Warning! More than one (2) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2015.11.11-07.41.10:011][324]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.277
+[2015.11.11-07.41.18:750][291]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.41.18:817][292]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.41.18:825][293]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.41.18:835][294]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.41.18:844][295]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.41.18:853][296]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.41.18:861][297]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.41.18:871][298]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.41.18:880][299]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.41.18:890][300]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.41.18:898][301]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.41.18:908][302]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.41.18:918][303]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.41.18:927][304]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.41.18:936][305]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.41.18:944][306]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.41.18:954][307]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.41.18:962][308]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.41.19:236][339]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.41.19:244][340]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.41.19:253][341]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.41.19:261][342]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.41.19:271][343]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.41.19:279][344]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.41.19:289][345]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.41.19:297][346]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.41.19:306][347]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.41.19:314][348]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.41.19:324][349]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.41.19:332][350]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.41.19:340][351]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.41.19:349][352]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.41.19:358][353]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.41.19:367][354]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.41.19:375][355]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.41.19:383][356]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.41.19:392][357]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.41.20:025][429]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.41.32:026][815]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.41.32:034][816]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.41.32:044][817]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.41.32:052][818]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.41.32:060][819]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.41.32:069][820]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.41.32:077][821]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.41.32:085][822]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.41.32:095][823]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.41.32:104][824]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.41.32:112][825]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.41.32:122][826]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.41.32:130][827]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.41.32:242][840]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.41.32:251][841]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.41.32:259][842]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.41.32:270][843]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.41.32:278][844]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.41.32:288][845]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.41.32:296][846]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.41.32:306][847]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.41.32:314][848]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.41.32:323][849]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.41.32:331][850]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.41.32:340][851]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.41.32:349][852]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.41.32:358][853]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.41.36:495][334]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.41.36:504][335]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.41.36:512][336]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.41.36:520][337]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.41.36:529][338]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.41.36:537][339]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.41.36:545][340]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.41.36:554][341]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.41.36:562][342]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.41.36:571][343]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.41.36:580][344]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.41.36:589][345]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.41.36:597][346]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.41.37:435][443]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.41.37:443][444]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.41.37:452][445]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.41.37:460][446]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.41.37:469][447]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.41.37:477][448]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.41.38:416][557]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.41.38:425][558]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.41.38:433][559]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.41.38:443][560]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.41.38:453][561]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.41.38:462][562]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.41.38:472][563]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.41.38:480][564]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.41.38:490][565]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.41.41:624][930]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.41.41:633][931]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.41.41:641][932]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.41.41:650][933]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.41.41:659][934]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.41.41:669][935]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.41.41:676][936]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.41.41:686][937]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.41.41:695][938]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.41.41:705][939]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.41.41:713][940]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.41.41:722][941]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.41.42:112][986]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.41.42:122][987]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.41.42:130][988]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.41.42:140][989]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.41.42:149][990]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.41.42:158][991]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.41.42:168][992]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.41.43:465][141]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.41.43:474][142]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.41.43:484][143]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.41.43:493][144]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.41.43:502][145]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.41.43:511][146]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.41.43:521][147]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.41.43:529][148]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.41.43:538][149]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.41.54:216][402]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.41.54:224][403]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.41.54:232][404]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.41.54:240][405]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.41.54:249][406]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.41.54:258][407]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.41.54:268][408]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.41.54:276][409]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.41.54:285][410]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.41.54:294][411]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.41.54:303][412]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.41.54:312][413]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.41.54:321][414]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.41.54:329][415]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.41.54:480][432]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.41.54:489][433]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.41.54:497][434]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.41.54:506][435]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.41.54:515][436]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.41.54:524][437]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.41.54:534][438]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.41.54:544][439]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.41.54:553][440]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.41.54:563][441]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.41.54:572][442]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.41.54:581][443]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.41.54:590][444]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.41.54:599][445]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.41.54:607][446]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.02:552][367]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.02:560][368]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.02:569][369]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.02:577][370]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.02:586][371]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.02:595][372]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.02:604][373]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.04:065][541]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.04:075][542]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.04:083][543]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.04:091][544]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.04:100][545]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.04:108][546]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.04:117][547]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.04:125][548]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.04:134][549]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.07:197][902]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.07:206][903]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.07:215][904]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.07:223][905]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.07:233][906]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.07:241][907]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.07:252][908]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.07:260][909]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.07:269][910]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.07:277][911]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.07:287][912]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.10:721][308]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.10:730][309]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.10:738][310]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.10:746][311]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.10:755][312]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.10:763][313]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.10:772][314]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.10:902][329]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.42.10:910][330]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.42.10:919][331]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.42.10:928][332]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.42.10:938][333]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.42.10:946][334]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.42.10:954][335]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.42.10:963][336]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.42.10:971][337]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.42.10:980][338]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.42.11:095][351]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.11:104][352]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.11:112][353]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.11:121][354]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.11:130][355]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.11:139][356]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.11:148][357]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.11:157][358]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.11:166][359]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.11:174][360]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.11:337][379]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.42.11:346][380]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.42.11:354][381]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.42.11:362][382]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.42.11:371][383]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.42.11:379][384]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.42.11:387][385]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.42.11:396][386]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.42.11:405][387]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.42.11:413][388]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.42.11:422][389]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.42.11:430][390]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.42.11:438][391]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.42.11:447][392]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.42.11:455][393]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.42.11:463][394]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.42.11:472][395]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.42.11:482][396]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.42.11:806][433]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.11:815][434]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.11:823][435]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.11:831][436]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.11:839][437]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.11:848][438]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.11:856][439]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.11:865][440]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.11:873][441]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.11:881][442]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.11:891][443]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.11:899][444]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.18:188][170]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.18:196][171]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.18:205][172]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.18:214][173]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.18:222][174]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.18:232][175]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.18:240][176]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.18:250][177]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.18:258][178]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.18:266][179]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.18:275][180]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.18:284][181]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.18:292][182]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.18:302][183]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.18:310][184]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.19:661][340]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.19:670][341]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.19:678][342]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.19:687][343]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.19:695][344]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.19:703][345]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.19:712][346]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.19:720][347]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.19:729][348]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.19:738][349]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.19:746][350]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.19:756][351]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.19:765][352]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.19:775][353]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.26:146][ 91]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.26:154][ 92]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.26:163][ 93]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.26:171][ 94]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.26:180][ 95]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.26:188][ 96]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.26:197][ 97]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.26:205][ 98]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.26:213][ 99]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.26:222][100]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.26:230][101]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.26:238][102]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.26:246][103]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.26:255][104]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.26:263][105]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.26:271][106]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.27:094][201]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.27:103][202]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.27:111][203]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.27:122][204]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.27:130][205]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.27:139][206]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.27:147][207]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.27:155][208]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.27:164][209]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.27:173][210]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.27:182][211]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.27:190][212]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.27:200][213]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.27:209][214]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.34:085][  7]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.34:093][  8]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.34:103][  9]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.34:111][ 10]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.34:119][ 11]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.34:128][ 12]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.34:136][ 13]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.34:144][ 14]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.34:153][ 15]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.34:164][ 16]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.34:172][ 17]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.34:182][ 18]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.34:193][ 19]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.34:202][ 20]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.34:210][ 21]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.34:219][ 22]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.34:227][ 23]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.34:236][ 24]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.34:244][ 25]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.34:253][ 26]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.39:711][656]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.39:719][657]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.39:728][658]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.39:736][659]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.39:745][660]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.39:754][661]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.39:762][662]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.39:772][663]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.39:781][664]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.40:068][697]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.42.40:076][698]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.42.40:085][699]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.42.40:093][700]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.42.40:102][701]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.42.40:111][702]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.42.40:119][703]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.42.40:129][704]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.42.40:138][705]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.42.40:149][706]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.42.40:158][707]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.42.40:167][708]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.42.40:175][709]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.42.40:184][710]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.42.40:192][711]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.42.40:201][712]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.42.40:210][713]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.42.44:924][257]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.44:933][258]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.44:942][259]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.44:951][260]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.44:959][261]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.44:969][262]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.44:979][263]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.44:987][264]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.44:998][265]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.45:006][266]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.55:234][451]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.55:243][452]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.55:251][453]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.55:260][454]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.55:269][455]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.55:278][456]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.55:287][457]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.42.56:574][594]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2015.11.11-07.42.56:574][594]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2015.11.11-07.42.56:718][595]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000019FD904540
+[2015.11.11-07.42.58:177][758]LogD3D11RHI: InitD3DDevice
+[2015.11.11-07.42.58:301][758]LogD3D11RHI: InitD3DDevice
+[2015.11.11-07.42.58:379][758]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.11-07.42.58:427][758]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.11-07.43.00:365][758]LeapPluginLog: InterfaceObject: NewBlueprint_C_1
+[2015.11.11-07.43.00:365][758]LogActor:Warning: GameNetworkManager /Engine/Transient.World_3:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.11-07.43.17:039][ 26]LogD3D11RHI: InitD3DDevice
+[2015.11.11-07.43.28:555][997]LogD3D11RHI: InitD3DDevice
+[2015.11.11-07.43.40:808][ 28]LogD3D11RHI: InitD3DDevice
+[2015.11.11-07.43.55:593][ 75]BlueprintLog: New page: Compile NewBlueprint
+[2015.11.11-07.43.55:694][ 75]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2015.11.11-07.43.55:732][ 75]LeapPluginLog: InterfaceObject: NewBlueprint_C_0
+[2015.11.11-07.43.55:732][ 75]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2015.11.11-07.43.55:732][ 75]LeapPluginLog: InterfaceObject: NewBlueprint_C_0
+[2015.11.11-07.43.55:805][ 75]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2015.11.11-07.43.55:805][ 75]LeapPluginLog: InterfaceObject: NewBlueprint_C_0
+[2015.11.11-07.43.55:806][ 75]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2015.11.11-07.43.55:806][ 75]LeapPluginLog: InterfaceObject: NewBlueprint_C_0
+[2015.11.11-07.43.55:806][ 75]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2015.11.11-07.43.55:806][ 75]LeapPluginLog: InterfaceObject: NewBlueprint_C_0
+[2015.11.11-07.43.55:809][ 75]BlueprintEditorCompileResults: Info [0204.30] Compile of NewBlueprint successful! [in 216 ms]
+[2015.11.11-07.44.06:576][927]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2015.11.11-07.44.07:908][ 70]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.11.11-07.44.07:915][ 70]LogPlayLevel: [PIE] Compiling Minimal_Default before PIE...
+[2015.11.11-07.44.07:984][ 70]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001998E7D1C0
+[2015.11.11-07.44.07:999][ 70]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2015.11.11-07.44.08:041][ 70]LogPlayLevel: PIE:  Blueprint regeneration took 131 ms (1 blueprints)
+[2015.11.11-07.44.08:041][ 70]PIE: New page: PIE session: Minimal_Default (Nov 12, 2015, 1:44:08 AM)
+[2015.11.11-07.44.08:041][ 70]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2015.11.11-07.44.08:046][ 70]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005241s)
+[2015.11.11-07.44.08:046][ 70]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.11.11-07.44.08:047][ 70]LogPlayLevel: PIE: World Init took: (0.001313s)
+[2015.11.11-07.44.08:047][ 70]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.006758s)
+[2015.11.11-07.44.08:098][ 70]LogInit: XAudio2 using 'スピーカー (VIA HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.11-07.44.08:113][ 70]LogInit: FAudioDevice initialized.
+[2015.11.11-07.44.08:147][ 70]LogWorld: Game class is 'NewBlueprint_C'
+[2015.11.11-07.44.08:147][ 70]LeapPluginLog: InterfaceObject: NewBlueprint_C_4
+[2015.11.11-07.44.08:151][ 70]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.11.11-16.44.08
+[2015.11.11-07.44.08:152][ 70]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.11-07.44.08:152][ 70]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.11-07.44.08:152][ 70]LogWorld: Bringing up level for play took: 0.003021
+[2015.11.11-07.44.08:156][ 70]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_1
+[2015.11.11-07.44.08:156][ 70]LeapPluginLog:Warning: Warning! More than one (2) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2015.11.11-07.44.08:157][ 70]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.424
+[2015.11.11-07.45.11:214][333]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.45.11:222][334]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.45.11:230][335]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.45.11:239][336]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.45.11:247][337]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.45.11:256][338]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.45.11:264][339]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.45.11:272][340]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.45.11:281][341]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.45.20:084][366]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2015.11.11-07.45.20:084][366]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2015.11.11-07.45.20:184][366]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000198A8CA2A0
+[2015.11.11-07.45.21:323][499]LogD3D11RHI: InitD3DDevice
+[2015.11.11-07.45.21:366][499]LogD3D11RHI: InitD3DDevice
+[2015.11.11-07.45.24:000][499]LeapPluginLog: InterfaceObject: NewBlueprint_C_5
+[2015.11.11-07.45.24:000][499]LogActor:Warning: GameNetworkManager /Engine/Transient.World_4:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.11-07.45.35:610][503]LogD3D11RHI: InitD3DDevice
+[2015.11.11-07.45.48:651][599]BlueprintLog: New page: Compile NewBlueprint
+[2015.11.11-07.45.48:715][599]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2015.11.11-07.45.48:715][599]LeapPluginLog: InterfaceObject: NewBlueprint_C_5
+[2015.11.11-07.45.48:715][599]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2015.11.11-07.45.48:716][599]LeapPluginLog: InterfaceObject: NewBlueprint_C_5
+[2015.11.11-07.45.48:716][599]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2015.11.11-07.45.48:716][599]LeapPluginLog: InterfaceObject: NewBlueprint_C_5
+[2015.11.11-07.45.48:798][599]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2015.11.11-07.45.48:798][599]LeapPluginLog: InterfaceObject: NewBlueprint_C_5
+[2015.11.11-07.45.48:798][599]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2015.11.11-07.45.48:798][599]LeapPluginLog: InterfaceObject: NewBlueprint_C_5
+[2015.11.11-07.45.48:799][599]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2015.11.11-07.45.48:799][599]LeapPluginLog: InterfaceObject: NewBlueprint_C_5
+[2015.11.11-07.45.48:809][599]BlueprintEditorCompileResults: Info [0317.30] Compile of NewBlueprint successful! [in 157 ms]
+[2015.11.11-07.45.49:934][705]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2015.11.11-07.45.51:125][840]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.11.11-07.45.51:134][840]LogPlayLevel: [PIE] Compiling Minimal_Default before PIE...
+[2015.11.11-07.45.51:218][840]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000019FE5CCB80
+[2015.11.11-07.45.51:218][840]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2015.11.11-07.45.51:256][840]LogPlayLevel: PIE:  Blueprint regeneration took 131 ms (1 blueprints)
+[2015.11.11-07.45.51:257][840]PIE: New page: PIE session: Minimal_Default (Nov 12, 2015, 1:45:51 AM)
+[2015.11.11-07.45.51:257][840]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2015.11.11-07.45.51:263][840]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005732s)
+[2015.11.11-07.45.51:263][840]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.11.11-07.45.51:264][840]LogPlayLevel: PIE: World Init took: (0.001220s)
+[2015.11.11-07.45.51:264][840]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.007145s)
+[2015.11.11-07.45.51:314][840]LogInit: XAudio2 using 'スピーカー (VIA HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.11-07.45.51:327][840]LogInit: FAudioDevice initialized.
+[2015.11.11-07.45.51:359][840]LogWorld: Game class is 'NewBlueprint_C'
+[2015.11.11-07.45.51:359][840]LeapPluginLog: InterfaceObject: NewBlueprint_C_6
+[2015.11.11-07.45.51:363][840]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.11.11-16.45.51
+[2015.11.11-07.45.51:363][840]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.11-07.45.51:363][840]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.11-07.45.51:363][840]LogWorld: Bringing up level for play took: 0.002814
+[2015.11.11-07.45.51:367][840]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_2
+[2015.11.11-07.45.51:367][840]LeapPluginLog:Warning: Warning! More than one (2) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2015.11.11-07.45.51:368][840]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.365
+[2015.11.11-07.46.54:878][128]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2015.11.11-07.46.54:879][128]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2015.11.11-07.46.54:982][128]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000019878D4A40
+[2015.11.11-07.46.56:291][278]LogD3D11RHI: InitD3DDevice
+[2015.11.11-07.46.56:324][278]LogD3D11RHI: InitD3DDevice
+[2015.11.11-07.46.56:587][278]LeapPluginLog: InterfaceObject: NewBlueprint_C_7
+[2015.11.11-07.46.56:587][278]LogActor:Warning: GameNetworkManager /Engine/Transient.World_5:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.11-07.47.31:427][112]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.11.11-07.47.31:437][112]LogPlayLevel: [PIE] Compiling Minimal_Default before PIE...
+[2015.11.11-07.47.31:528][112]LogPlayLevel: PIE:  Blueprint regeneration took 100 ms (1 blueprints)
+[2015.11.11-07.47.31:528][112]PIE: New page: PIE session: Minimal_Default (Nov 12, 2015, 1:47:31 AM)
+[2015.11.11-07.47.31:529][112]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2015.11.11-07.47.31:536][112]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006907s)
+[2015.11.11-07.47.31:536][112]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.11.11-07.47.31:537][112]LogPlayLevel: PIE: World Init took: (0.001638s)
+[2015.11.11-07.47.31:538][112]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.008796s)
+[2015.11.11-07.47.31:594][112]LogInit: XAudio2 using 'スピーカー (VIA HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.11-07.47.31:609][112]LogInit: FAudioDevice initialized.
+[2015.11.11-07.47.31:646][112]LogWorld: Game class is 'NewBlueprint_C'
+[2015.11.11-07.47.31:646][112]LeapPluginLog: InterfaceObject: NewBlueprint_C_8
+[2015.11.11-07.47.31:646][112]LeapPluginLog:Warning: Warning! More than one (2) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2015.11.11-07.47.31:650][112]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.11.11-16.47.31
+[2015.11.11-07.47.31:650][112]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.11-07.47.31:650][112]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameNetworkManager_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.11-07.47.31:651][112]LogWorld: Bringing up level for play took: 0.002981
+[2015.11.11-07.47.31:654][112]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_3
+[2015.11.11-07.47.31:654][112]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2015.11.11-07.47.31:656][112]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.077
+[2015.11.11-07.47.59:071][ 45]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2015.11.11-07.47.59:072][ 45]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2015.11.11-07.47.59:172][ 45]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000019FD906DE0
+[2015.11.11-07.48.02:780][307]LogD3D11RHI: InitD3DDevice
+[2015.11.11-07.48.09:195][880]LogD3D11RHI: InitD3DDevice
+[2015.11.11-07.48.17:427][622]LogD3D11RHI: InitD3DDevice
+[2015.11.11-07.48.29:991][836]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.11.11-07.48.29:991][836]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2015.11.11-07.48.29:991][836]LeapPluginLog: InterfaceObject: NewBlueprint_C_7
+[2015.11.11-07.48.29:991][836]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2015.11.11-07.48.29:992][836]LeapPluginLog: InterfaceObject: NewBlueprint_C_7
+[2015.11.11-07.48.29:992][836]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2015.11.11-07.48.29:992][836]LeapPluginLog: InterfaceObject: NewBlueprint_C_7
+[2015.11.11-07.48.30:012][836]LogPlayLevel: [PIE] Compiling NewBlueprint before PIE...
+[2015.11.11-07.48.30:075][836]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2015.11.11-07.48.30:075][836]LeapPluginLog: InterfaceObject: NewBlueprint_C_7
+[2015.11.11-07.48.30:075][836]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2015.11.11-07.48.30:076][836]LeapPluginLog: InterfaceObject: NewBlueprint_C_7
+[2015.11.11-07.48.30:076][836]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2015.11.11-07.48.30:076][836]LeapPluginLog: InterfaceObject: NewBlueprint_C_7
+[2015.11.11-07.48.30:108][836]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2015.11.11-07.48.30:108][836]LeapPluginLog: InterfaceObject: NewBlueprint_C_7
+[2015.11.11-07.48.30:108][836]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2015.11.11-07.48.30:109][836]LeapPluginLog: InterfaceObject: NewBlueprint_C_7
+[2015.11.11-07.48.30:109][836]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2015.11.11-07.48.30:109][836]LeapPluginLog: InterfaceObject: NewBlueprint_C_7
+[2015.11.11-07.48.30:127][836]LogPlayLevel: [PIE] Compiling Minimal_Default before PIE...
+[2015.11.11-07.48.30:217][836]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2015.11.11-07.48.30:262][836]LogPlayLevel: PIE:  Blueprint regeneration took 271 ms (2 blueprints)
+[2015.11.11-07.48.30:262][836]PIE: New page: PIE session: Minimal_Default (Nov 12, 2015, 1:48:30 AM)
+[2015.11.11-07.48.30:263][836]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2015.11.11-07.48.30:267][836]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004682s)
+[2015.11.11-07.48.30:268][836]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.11.11-07.48.30:269][836]LogPlayLevel: PIE: World Init took: (0.001234s)
+[2015.11.11-07.48.30:269][836]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.006101s)
+[2015.11.11-07.48.30:317][836]LogInit: XAudio2 using 'スピーカー (VIA HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.11-07.48.30:331][836]LogInit: FAudioDevice initialized.
+[2015.11.11-07.48.30:368][836]LogWorld: Game class is 'NewBlueprint_C'
+[2015.11.11-07.48.30:368][836]LeapPluginLog: InterfaceObject: NewBlueprint_C_6
+[2015.11.11-07.48.30:368][836]LeapPluginLog:Warning: Warning! More than one (2) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2015.11.11-07.48.30:372][836]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.11.11-16.48.30
+[2015.11.11-07.48.30:372][836]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.11-07.48.30:373][836]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameNetworkManager_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.11-07.48.30:373][836]LogWorld: Bringing up level for play took: 0.002883
+[2015.11.11-07.48.30:376][836]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_4
+[2015.11.11-07.48.30:376][836]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2015.11.11-07.48.30:378][836]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.645
+[2015.11.11-07.48.36:477][465]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.48.36:487][466]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.48.36:496][467]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.48.36:506][468]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.48.36:516][469]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.48.36:525][470]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.48.36:536][471]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.48.36:546][472]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.48.36:555][473]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.48.36:565][474]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.48.36:574][475]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.48.36:583][476]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.48.36:592][477]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.48.36:601][478]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.48.36:610][479]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.48.36:619][480]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.48.36:628][481]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.48.37:226][544]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.48.37:237][545]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.48.37:246][546]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.48.37:256][547]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.48.37:268][548]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.48.37:278][549]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.48.37:287][550]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.48.37:297][551]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.48.37:306][552]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.48.37:316][553]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.48.37:868][609]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.48.37:877][610]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.48.37:887][611]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.48.37:898][612]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.48.37:906][613]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.48.37:917][614]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.48.37:926][615]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.48.37:937][616]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.48.37:948][617]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.48.37:959][618]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.48.42:988][976]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.48.43:003][977]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.48.43:018][978]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.48.43:034][979]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.48.43:049][980]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.48.43:064][981]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.48.43:078][982]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.48.43:362][  1]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.48.43:385][  2]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.48.43:404][  3]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.48.43:420][  4]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.48.43:437][  5]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.48.43:455][  6]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.48.43:476][  7]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.48.44:066][ 41]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.48.44:083][ 42]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.48.44:100][ 43]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.48.48:530][234]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.48.48:546][235]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.48.48:561][236]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.48.48:578][237]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.48.48:594][238]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.48.48:611][239]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.48.48:627][240]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.48.48:644][241]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.48.48:660][242]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.48.48:851][253]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.48.48:868][254]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.48.48:886][255]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.48.48:903][256]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.48.49:518][293]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.48.49:535][294]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.48.49:553][295]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.48.49:572][296]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.48.58:110][837]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2015.11.11-07.48.58:111][837]LeapPluginLog: InterfaceObject: NewBlueprint_C_8
+[2015.11.11-07.48.58:111][837]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2015.11.11-07.48.58:111][837]LogActor:Warning: GameNetworkManager /Engine/Transient.World_5:PersistentLevel.GameNetworkManager_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.11-07.49.10:322][586]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.49.10:342][587]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.49.10:360][588]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.49.13:044][755]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.49.13:061][756]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.49.13:075][757]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.49.13:091][758]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.49.13:106][759]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.49.13:122][760]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.49.13:138][761]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.49.13:153][762]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.49.13:169][763]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.49.13:186][764]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.49.13:329][772]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.49.13:348][773]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.49.13:365][774]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.49.13:383][775]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.49.13:399][776]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.49.13:416][777]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.49.13:432][778]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.49.13:448][779]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.49.13:464][780]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.49.13:751][798]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.49.13:767][799]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.49.13:784][800]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.49.13:805][801]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.49.13:823][802]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.49.13:842][803]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.49.13:859][804]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.49.13:880][805]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.49.13:899][806]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.49.13:995][812]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.49.14:010][813]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.49.14:025][814]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.49.14:045][815]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.49.14:063][816]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.49.14:079][817]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.49.14:094][818]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.49.14:109][819]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.49.14:578][847]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.49.14:592][848]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.49.14:606][849]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.49.14:624][850]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.49.14:946][869]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.49.14:962][870]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.49.14:980][871]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.49.14:999][872]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.49.15:013][873]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.49.15:030][874]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.49.15:047][875]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.49.15:064][876]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.49.15:082][877]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.49.15:100][878]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.49.15:440][899]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.49.15:456][900]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.49.15:474][901]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.49.15:708][915]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.49.15:724][916]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.49.15:742][917]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.49.15:759][918]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.49.15:776][919]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.49.15:791][920]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.49.15:810][921]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.49.15:826][922]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.49.15:843][923]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.49.15:939][929]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.49.15:954][930]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.49.15:969][931]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.49.15:985][932]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.49.16:001][933]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.49.16:017][934]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.49.16:033][935]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.49.16:049][936]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.49.16:065][937]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.49.16:081][938]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.49.16:336][953]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.49.16:354][954]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.49.16:371][955]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.49.16:387][956]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.49.16:402][957]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.49.16:418][958]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.49.16:433][959]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.49.16:557][967]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.49.16:573][968]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.49.16:591][969]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.49.16:607][970]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.49.16:624][971]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.49.16:640][972]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.49.16:656][973]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.49.16:671][974]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.49.16:688][975]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.49.16:994][993]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.49.17:010][994]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.49.17:025][995]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.49.17:044][996]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.49.17:061][997]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.49.17:078][998]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.49.17:096][999]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.49.17:112][  0]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.49.17:225][  7]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.49.17:241][  8]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.49.17:258][  9]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.49.17:274][ 10]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.49.17:292][ 11]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.49.17:309][ 12]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.49.17:323][ 13]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.49.17:339][ 14]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.49.17:358][ 15]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.49.17:378][ 16]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.49.17:719][ 37]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.49.17:734][ 38]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.49.17:749][ 39]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.49.17:765][ 40]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.49.17:780][ 41]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.49.17:798][ 42]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.49.17:813][ 43]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.49.17:828][ 44]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.49.17:974][ 53]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.49.18:745][ 99]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.49.18:760][100]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.49.18:775][101]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.49.18:790][102]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.49.18:805][103]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.49.18:820][104]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.49.18:835][105]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.49.18:850][106]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.49.18:866][107]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.49.21:302][257]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.49.21:319][258]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.49.21:336][259]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.49.21:351][260]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.49.21:367][261]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.49.21:383][262]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.49.21:402][263]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.49.21:515][270]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.49.21:532][271]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.49.21:548][272]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.49.21:564][273]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.49.21:582][274]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.49.21:597][275]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.49.21:614][276]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.49.21:632][277]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.49.21:756][284]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.49.21:772][285]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.49.21:788][286]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.49.21:803][287]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.49.21:820][288]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.49.21:836][289]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.49.21:852][290]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.49.21:965][297]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.49.21:980][298]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.49.21:996][299]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.49.22:011][300]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.49.22:027][301]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.49.22:045][302]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.49.22:060][303]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.49.22:075][304]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.49.22:213][312]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.49.22:229][313]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.49.22:248][314]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.49.22:264][315]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.49.22:283][316]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.49.22:299][317]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.49.22:315][318]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.49.22:332][319]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.49.22:541][332]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.49.22:557][333]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.49.22:573][334]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.49.22:589][335]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.49.22:605][336]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.49.23:945][417]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.49.23:964][418]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.49.24:790][468]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.49.24:807][469]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.49.24:824][470]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.49.25:481][509]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.49.25:499][510]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.49.25:514][511]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.49.25:530][512]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.49.25:545][513]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.49.25:560][514]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.49.26:224][554]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.49.26:240][555]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.49.26:256][556]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.49.26:272][557]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.49.26:294][558]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.49.27:316][620]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.49.27:333][621]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.49.27:348][622]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.49.27:364][623]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.49.27:380][624]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.49.27:398][625]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.49.27:416][626]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.49.27:614][637]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.49.27:630][638]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.49.27:648][639]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.49.30:723][829]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.49.30:740][830]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.49.30:755][831]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.49.30:770][832]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.49.30:785][833]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.49.32:276][929]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2015.11.11-07.49.32:277][929]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2015.11.11-07.49.32:367][929]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000019A0952340
+[2015.11.11-07.49.57:345][143]LogD3D11RHI: InitD3DDevice
+[2015.11.11-07.49.57:395][143]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewBlueprint" FILE="../../../../../../Documents/GitHub/LeapUI/roll - Copy/Content/NewBlueprint.uasset" SILENT=true
+[2015.11.11-07.49.57:553][143]LogSavePackage: Save=124.106285ms
+[2015.11.11-07.49.57:553][143]LogSavePackage: Moving '../../../../../../Documents/GitHub/LeapUI/roll - Copy/Saved/NewBlueprintB0BFAC7940063621FB9CA48D3C9E73B2.tmp' to '../../../../../../Documents/GitHub/LeapUI/roll - Copy/Content/NewBlueprint.uasset'
+[2015.11.11-07.49.58:563][236]BlueprintLog: New page: Compile NewBlueprint
+[2015.11.11-07.49.58:626][236]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2015.11.11-07.49.58:626][236]LeapPluginLog: InterfaceObject: NewBlueprint_C_8
+[2015.11.11-07.49.58:626][236]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2015.11.11-07.49.58:627][236]LeapPluginLog: InterfaceObject: NewBlueprint_C_8
+[2015.11.11-07.49.58:627][236]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2015.11.11-07.49.58:627][236]LeapPluginLog: InterfaceObject: NewBlueprint_C_8
+[2015.11.11-07.49.58:706][236]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2015.11.11-07.49.58:706][236]LeapPluginLog: InterfaceObject: NewBlueprint_C_8
+[2015.11.11-07.49.58:706][236]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2015.11.11-07.49.58:706][236]LeapPluginLog: InterfaceObject: NewBlueprint_C_8
+[2015.11.11-07.49.58:706][236]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2015.11.11-07.49.58:706][236]LeapPluginLog: InterfaceObject: NewBlueprint_C_8
+[2015.11.11-07.49.58:718][236]BlueprintEditorCompileResults: Info [0567.21] Compile of NewBlueprint successful! [in 155 ms]
+[2015.11.11-07.50.01:513][463]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2015.11.11-07.50.02:139][519]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.11.11-07.50.02:149][519]LogPlayLevel: [PIE] Compiling Minimal_Default before PIE...
+[2015.11.11-07.50.02:232][519]LogPlayLevel: PIE:  Blueprint regeneration took 93 ms (1 blueprints)
+[2015.11.11-07.50.02:232][519]PIE: New page: PIE session: Minimal_Default (Nov 12, 2015, 1:50:02 AM)
+[2015.11.11-07.50.02:232][519]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2015.11.11-07.50.02:238][519]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005459s)
+[2015.11.11-07.50.02:239][519]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.11.11-07.50.02:239][519]LogPlayLevel: PIE: World Init took: (0.001173s)
+[2015.11.11-07.50.02:239][519]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.006842s)
+[2015.11.11-07.50.02:289][519]LogInit: XAudio2 using 'スピーカー (VIA HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.11-07.50.02:302][519]LogInit: FAudioDevice initialized.
+[2015.11.11-07.50.02:336][519]LogWorld: Game class is 'NewBlueprint_C'
+[2015.11.11-07.50.02:337][519]LeapPluginLog: InterfaceObject: NewBlueprint_C_6
+[2015.11.11-07.50.02:337][519]LeapPluginLog:Warning: Warning! More than one (2) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2015.11.11-07.50.02:346][519]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.11.11-16.50.02
+[2015.11.11-07.50.02:347][519]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.11-07.50.02:348][519]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameNetworkManager_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.11-07.50.02:348][519]LogWorld: Bringing up level for play took: 0.007218
+[2015.11.11-07.50.02:357][519]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_5
+[2015.11.11-07.50.02:357][519]LeapPluginLog:Warning: Warning! More than one (3) Leap Controller Component detected! Duplication of work and output may result (inefficiency warning).
+[2015.11.11-07.50.02:360][519]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.627
+[2015.11.11-07.50.15:948][488]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.15:960][489]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.15:974][490]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.15:987][491]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.15:998][492]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.16:011][493]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.16:023][494]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.16:661][543]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.16:673][544]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.16:685][545]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.16:697][546]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.16:709][547]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.18:797][706]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.18:810][707]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.18:825][708]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.18:841][709]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.18:855][710]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.18:868][711]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.19:565][764]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.19:579][765]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.19:592][766]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.19:604][767]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.19:616][768]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.19:628][769]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.20:353][824]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.20:365][825]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.20:378][826]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.20:393][827]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.21:391][900]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.21:402][901]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.21:414][902]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.21:429][903]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.23:122][ 30]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.23:134][ 31]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.23:151][ 32]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.23:166][ 33]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.23:179][ 34]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.23:192][ 35]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.23:206][ 36]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.23:219][ 37]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.23:875][ 87]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.23:887][ 88]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.23:899][ 89]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.23:913][ 90]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.23:926][ 91]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.23:938][ 92]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.23:951][ 93]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.23:964][ 94]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.24:603][141]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.24:614][142]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.24:627][143]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.24:641][144]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.24:653][145]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.24:666][146]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.24:681][147]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.24:695][148]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.25:139][181]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.25:153][182]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.25:164][183]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.25:178][184]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.25:192][185]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.25:204][186]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.25:729][226]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.25:743][227]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.25:757][228]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.25:768][229]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.25:781][230]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.25:795][231]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.25:809][232]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.25:821][233]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.25:834][234]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.26:476][283]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.26:492][284]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.26:507][285]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.26:520][286]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.26:536][287]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.27:101][330]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.27:114][331]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.27:128][332]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.27:142][333]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.27:158][334]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.27:174][335]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.30:213][566]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.30:227][567]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.30:240][568]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.30:505][589]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.30:516][590]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.30:528][591]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.30:541][592]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.30:555][593]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.30:568][594]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.30:580][595]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.30:592][596]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.30:606][597]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.30:618][598]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.30:633][599]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.30:647][600]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.30:661][601]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.30:675][602]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.30:689][603]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.30:704][604]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.31:424][657]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.31:436][658]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.31:451][659]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.31:463][660]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.31:476][661]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.31:489][662]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.31:502][663]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.31:516][664]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.33:831][835]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.33:844][836]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.33:858][837]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.33:870][838]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.37:467][112]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.37:484][113]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.37:496][114]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.37:508][115]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.37:522][116]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.37:533][117]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.37:547][118]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.37:560][119]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.37:774][136]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.37:788][137]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.37:800][138]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.37:814][139]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.37:831][140]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.37:846][141]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.42:767][515]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.42:781][516]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.42:793][517]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.42:806][518]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.42:820][519]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.42:831][520]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.42:843][521]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.42:856][522]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.42:867][523]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.42:880][524]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.43:650][583]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.43:662][584]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.43:676][585]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.43:692][586]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.43:705][587]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.43:717][588]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.43:731][589]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.43:744][590]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.43:756][591]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.43:770][592]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.44:125][618]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.44:138][619]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.44:150][620]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.44:163][621]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.44:176][622]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.44:191][623]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.44:204][624]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.44:216][625]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.44:228][626]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.44:242][627]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.44:644][657]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.44:658][658]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.44:671][659]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.44:683][660]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.44:696][661]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.44:711][662]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.44:724][663]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.44:738][664]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.44:751][665]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.44:763][666]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.44:777][667]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.45:651][732]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.45:665][733]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.45:681][734]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.45:696][735]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.45:709][736]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.45:723][737]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.45:737][738]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.45:750][739]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.45:763][740]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.45:776][741]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.45:790][742]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.45:803][743]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.45:815][744]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.46:111][767]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.46:124][768]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.46:137][769]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.46:152][770]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.46:163][771]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.46:177][772]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.46:191][773]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.46:206][774]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.46:219][775]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.46:233][776]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.46:249][777]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.46:264][778]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.46:281][779]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.46:633][806]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.46:645][807]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.46:659][808]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.46:672][809]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.46:684][810]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.46:696][811]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.46:711][812]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.46:726][813]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.46:740][814]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.46:754][815]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.46:770][816]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.46:784][817]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.46:797][818]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.46:811][819]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.46:825][820]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.47:160][844]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.47:174][845]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.47:188][846]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.47:200][847]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.47:213][848]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.47:228][849]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.47:242][850]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.47:255][851]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.47:266][852]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.47:281][853]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.47:294][854]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.47:308][855]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.47:321][856]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.47:334][857]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.47:350][858]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.47:364][859]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.47:688][882]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.47:703][883]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.47:715][884]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.47:728][885]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.47:742][886]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.47:757][887]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.48:718][957]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.48:732][958]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.48:749][959]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.48:764][960]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.48:777][961]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.48:790][962]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.48:804][963]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.48:818][964]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.48:832][965]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.53:049][282]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.53:062][283]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.53:076][284]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.53:090][285]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.53:103][286]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.53:116][287]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.53:128][288]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.53:141][289]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.53:154][290]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.54:155][363]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.54:168][364]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.54:180][365]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.54:194][366]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.54:206][367]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.54:220][368]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.54:232][369]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.54:245][370]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.54:260][371]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.54:583][395]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.54:602][396]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.54:618][397]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.54:632][398]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.54:646][399]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.55:012][426]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.55:026][427]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.55:041][428]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.55:056][429]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.55:069][430]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.55:081][431]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.55:094][432]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.55:107][433]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.55:443][457]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.55:457][458]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.55:471][459]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.55:487][460]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.55:501][461]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.55:513][462]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.55:527][463]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.55:540][464]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.55:552][465]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.55:564][466]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.55:901][490]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.55:915][491]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.55:928][492]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.55:942][493]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.55:956][494]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.55:968][495]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.55:980][496]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.55:993][497]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.56:006][498]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.56:018][499]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.50.56:371][526]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.56:386][527]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.56:398][528]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.56:413][529]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.50.56:884][565]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.51.08:313][449]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.08:329][450]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.08:345][451]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.08:359][452]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.09:777][556]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.09:790][557]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.09:804][558]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.10:160][583]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.51.10:182][584]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.51.10:195][585]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.51.10:212][586]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.51.10:225][587]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.51.10:237][588]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.51.10:252][589]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.51.10:265][590]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.51.10:280][591]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.51.10:422][601]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.10:436][602]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.10:448][603]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.10:464][604]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.10:478][605]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.10:492][606]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.10:506][607]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.10:519][608]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.10:531][609]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.10:544][610]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.10:558][611]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.10:571][612]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.12:037][719]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.12:050][720]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.12:061][721]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.12:075][722]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.12:090][723]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.12:103][724]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.12:119][725]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.12:131][726]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.17:730][152]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.17:743][153]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.17:756][154]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.17:771][155]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.17:785][156]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.17:801][157]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.17:815][158]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.17:830][159]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.18:198][186]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.51.18:211][187]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.51.18:224][188]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.51.18:239][189]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.51.18:251][190]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.51.18:449][204]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.18:463][205]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.18:476][206]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.18:490][207]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.18:505][208]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.18:523][209]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.18:539][210]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.18:901][238]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.51.18:913][239]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.51.18:926][240]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.51.18:939][241]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.51.18:952][242]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.51.19:274][265]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.19:287][266]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.19:301][267]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.19:315][268]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.19:326][269]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.19:341][270]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.19:355][271]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.19:720][298]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.51.23:514][585]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.23:526][586]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.23:539][587]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.23:553][588]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.23:566][589]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.23:578][590]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.24:634][667]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.51.24:645][668]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.51.24:658][669]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.51.24:671][670]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.51.24:686][671]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.51.24:697][672]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.51.25:132][703]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.25:143][704]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.25:156][705]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.25:171][706]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.25:183][707]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.25:197][708]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.25:208][709]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.25:934][762]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.25:946][763]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.25:960][764]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.25:973][765]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.25:988][766]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.26:002][767]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.26:013][768]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.26:025][769]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.26:739][822]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.26:752][823]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.26:768][824]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.26:784][825]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.26:800][826]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.28:238][931]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.28:252][932]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.28:264][933]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.28:277][934]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.28:292][935]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.28:306][936]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.28:319][937]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.28:333][938]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.28:346][939]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.28:360][940]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.28:373][941]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.29:137][998]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.29:154][999]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.29:172][  0]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.29:186][  1]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.29:203][  2]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.29:219][  3]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.29:233][  4]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.29:251][  5]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.29:266][  6]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.29:991][ 60]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.30:004][ 61]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.30:018][ 62]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.30:030][ 63]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.30:042][ 64]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.30:054][ 65]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.30:067][ 66]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.30:080][ 67]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.30:092][ 68]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.30:105][ 69]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.30:842][123]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.30:855][124]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.30:869][125]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.30:883][126]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.30:896][127]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.30:908][128]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.30:922][129]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.30:938][130]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.30:953][131]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.31:654][181]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.31:668][182]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.31:681][183]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.31:694][184]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.31:711][185]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.31:727][186]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.31:740][187]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.31:755][188]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.32:524][245]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.32:536][246]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.32:550][247]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.32:561][248]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.32:574][249]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.32:587][250]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.32:601][251]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.32:613][252]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.32:625][253]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.32:640][254]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.32:653][255]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.32:666][256]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.33:349][307]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.33:361][308]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.33:375][309]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.33:390][310]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.33:404][311]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.33:419][312]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.33:434][313]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.33:447][314]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.33:461][315]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.34:744][409]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.34:757][410]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.34:772][411]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.34:784][412]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.34:798][413]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.34:812][414]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.34:824][415]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.34:839][416]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.34:852][417]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.34:865][418]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.35:653][477]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.35:666][478]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.35:677][479]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.35:691][480]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.35:706][481]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.35:722][482]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.35:738][483]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.35:754][484]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.35:770][485]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.35:788][486]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.35:804][487]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.36:589][545]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.36:602][546]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.36:615][547]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.36:627][548]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.36:640][549]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.36:653][550]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.36:665][551]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.36:677][552]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.36:689][553]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.36:702][554]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.36:715][555]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.36:728][556]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.36:740][557]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.36:754][558]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.37:502][613]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.37:515][614]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.37:529][615]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.37:545][616]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.38:294][671]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.38:308][672]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.38:321][673]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.38:335][674]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.38:349][675]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.38:363][676]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.38:378][677]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.38:392][678]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.38:405][679]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.38:418][680]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.39:038][725]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.39:052][726]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.39:066][727]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.39:080][728]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.39:092][729]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.39:106][730]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.39:120][731]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.39:133][732]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.39:145][733]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.39:863][785]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.39:875][786]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.39:891][787]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.39:907][788]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.39:922][789]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.39:938][790]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.39:953][791]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.39:967][792]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.39:983][793]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.39:999][794]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.40:683][844]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.40:694][845]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.40:707][846]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.40:721][847]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.40:735][848]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.40:747][849]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.40:760][850]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.40:772][851]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.40:786][852]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.40:798][853]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.40:810][854]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.41:566][910]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.41:578][911]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.41:591][912]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.41:606][913]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.41:619][914]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.41:632][915]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.41:643][916]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.41:656][917]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.41:669][918]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.41:683][919]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.41:698][920]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.41:712][921]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.42:378][970]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.42:393][971]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.42:411][972]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.42:428][973]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.42:444][974]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.42:463][975]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.42:476][976]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.42:490][977]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.42:503][978]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.43:194][ 27]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.43:210][ 28]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.43:223][ 29]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.43:237][ 30]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.43:252][ 31]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.43:264][ 32]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.43:274][ 33]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.43:288][ 34]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.43:302][ 35]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.43:316][ 36]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.43:330][ 37]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.43:342][ 38]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.43:996][ 86]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.44:008][ 87]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.44:022][ 88]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.44:036][ 89]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.44:051][ 90]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.44:065][ 91]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.44:078][ 92]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.44:094][ 93]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.44:111][ 94]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.44:128][ 95]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.44:147][ 96]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.44:766][141]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.44:781][142]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.44:799][143]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.44:815][144]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.44:830][145]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.44:843][146]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.44:861][147]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.44:875][148]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.44:889][149]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.44:903][150]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.44:917][151]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.45:620][202]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.45:633][203]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.45:646][204]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.45:659][205]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.45:673][206]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.45:686][207]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.45:698][208]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.45:711][209]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.45:724][210]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.45:738][211]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.46:406][261]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.46:419][262]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.46:434][263]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.46:448][264]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.46:462][265]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.46:478][266]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.46:496][267]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.46:512][268]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.46:527][269]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.46:540][270]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.46:555][271]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.47:243][321]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.47:258][322]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.47:272][323]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.47:285][324]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.48:015][379]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.48:027][380]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.48:039][381]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.48:052][382]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.48:065][383]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.48:077][384]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.48:090][385]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.48:102][386]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.48:116][387]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.48:638][426]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.48:651][427]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.48:663][428]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.48:676][429]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.48:691][430]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.48:703][431]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.48:716][432]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.48:728][433]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.49:604][496]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.51.49:620][497]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.51.49:638][498]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.51.49:656][499]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.51.49:910][518]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.49:923][519]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.49:938][520]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.49:951][521]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.50:657][573]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.50:671][574]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.50:687][575]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.50:705][576]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.50:724][577]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.50:737][578]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.50:753][579]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.50:768][580]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.50:783][581]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.50:802][582]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.50:815][583]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.51:175][611]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.51.51:187][612]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.51.51:200][613]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.51.51:213][614]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.51.51:226][615]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.51.51:239][616]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.51.51:252][617]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.51.51:266][618]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.51.51:281][619]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.51.51:296][620]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.51.51:683][648]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.51:695][649]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.51:707][650]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.51:720][651]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.51:735][652]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.51:748][653]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.51:761][654]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.51:773][655]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.51:786][656]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.51:800][657]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.51:814][658]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.51:827][659]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.52:176][684]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.51.52:188][685]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.51.52:202][686]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.51.52:215][687]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.51.52:228][688]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.51.52:239][689]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.51.52:252][690]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.51.52:653][719]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.52:666][720]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.52:681][721]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.52:694][722]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.52:706][723]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.52:719][724]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.52:733][725]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.52:744][726]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.53:148][756]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.51.53:164][757]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.51.53:176][758]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.51.53:190][759]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.51.53:204][760]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.51.53:631][792]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.53:646][793]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.53:661][794]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.53:674][795]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.53:690][796]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.53:706][797]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.53:722][798]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.53:739][799]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.53:755][800]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.54:104][825]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.51.54:119][826]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.51.54:132][827]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.51.54:144][828]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.51.54:157][829]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.51.54:171][830]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.51.54:184][831]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.51.54:199][832]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.51.54:589][861]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.54:603][862]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.54:615][863]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.54:629][864]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.54:641][865]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.54:654][866]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.54:667][867]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.54:681][868]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.54:694][869]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.54:706][870]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.54:719][871]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.54:733][872]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.54:744][873]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.55:583][934]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.55:596][935]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.55:610][936]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.55:624][937]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.55:638][938]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.55:651][939]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.55:665][940]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.55:677][941]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.55:689][942]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.57:106][ 47]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.57:120][ 48]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.57:133][ 49]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.57:147][ 50]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.57:162][ 51]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.57:176][ 52]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.57:188][ 53]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.57:200][ 54]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.57:815][100]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.57:831][101]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.57:845][102]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.57:861][103]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.57:876][104]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.57:890][105]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.57:904][106]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.58:482][149]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.58:497][150]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.58:509][151]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.58:527][152]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.58:541][153]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.58:560][154]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.59:168][199]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.59:185][200]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.59:202][201]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.59:219][202]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.59:234][203]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.59:834][247]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.59:848][248]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.59:860][249]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.59:873][250]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.59:885][251]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.59:898][252]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.59:911][253]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.59:924][254]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.51.59:938][255]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.52.00:580][302]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.52.00:591][303]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.52.01:307][356]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.52.01:321][357]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.52.01:335][358]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.52.01:349][359]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.52.01:362][360]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.52.01:376][361]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.52.01:389][362]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.52.01:403][363]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.52.01:418][364]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.52.01:431][365]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.52.02:049][408]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.52.02:063][409]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.52.02:076][410]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.52.02:091][411]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.52.02:105][412]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.52.02:122][413]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.52.02:136][414]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.52.02:725][454]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.52.02:738][455]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.52.02:754][456]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.52.02:768][457]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.52.02:784][458]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.52.02:798][459]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.52.02:811][460]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.52.02:822][461]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.52.03:399][504]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.52.03:413][505]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.52.03:426][506]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.52.03:441][507]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.52.03:454][508]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.52.03:467][509]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.52.03:481][510]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.52.03:494][511]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.52.03:506][512]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.52.03:519][513]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.52.04:095][554]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.52.04:110][555]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.52.04:124][556]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.52.04:137][557]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.52.04:149][558]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.52.04:162][559]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.52.04:174][560]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.52.04:188][561]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.52.04:200][562]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.52.04:213][563]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.52.04:225][564]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.52.04:864][610]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.52.04:878][611]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.52.04:890][612]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.52.04:902][613]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.52.04:916][614]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.52.04:930][615]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.52.04:943][616]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.52.04:955][617]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.52.04:970][618]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.52.05:626][666]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.52.05:643][667]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.52.05:661][668]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.52.05:679][669]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.52.05:695][670]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.52.05:710][671]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.52.07:167][778]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.52.07:180][779]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.52.07:192][780]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.52.07:206][781]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.52.07:219][782]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.52.07:232][783]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.52.07:244][784]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.52.07:256][785]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.52.08:330][863]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.52.08:342][864]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.52.08:356][865]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.52.08:371][866]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.52.08:384][867]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.52.08:398][868]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.52.08:412][869]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.52.08:428][870]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.52.08:440][871]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.52.14:796][358]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.52.14:808][359]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.52.14:820][360]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.52.14:834][361]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.52.14:848][362]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.52.14:861][363]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.52.16:522][487]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.52.16:537][488]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.52.16:551][489]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.52.16:564][490]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.52.16:579][491]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.52.16:592][492]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.52.16:604][493]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.52.16:617][494]LogBlueprintUserMessages: LeftRoll
+[2015.11.11-07.52.16:966][520]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.52.16:983][521]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.52.17:000][522]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.52.17:016][523]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.52.17:031][524]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.52.17:047][525]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.52.17:060][526]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.52.17:076][527]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.52.17:095][528]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.52.17:111][529]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.52.17:698][572]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.52.17:713][573]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.52.17:728][574]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.52.17:741][575]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.52.17:754][576]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.52.17:768][577]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.52.17:781][578]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.52.17:793][579]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.52.17:805][580]LogBlueprintUserMessages: RightRoll
+[2015.11.11-07.52.24:128][111]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2015.11.11-07.52.24:129][111]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2015.11.11-07.52.24:220][111]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000019A0951D00
+[2015.11.11-07.52.27:040][326]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2015.11.11-07.52.28:360][465]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000019E312E340
+[2015.11.11-07.52.28:360][465]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.11.11-07.52.28:711][466]Cmd: QUIT_EDITOR
+[2015.11.11-07.52.29:806][466]LogExit: Preparing to exit.
+[2015.11.11-07.52.30:762][466]LogExit: Editor shut down
+[2015.11.11-07.52.30:762][466]LogExit: Transaction tracking system shut down
+[2015.11.11-07.52.30:770][466]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000019F96FB7E0
+[2015.11.11-07.52.30:770][466]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000019870A5800
+[2015.11.11-07.52.30:770][466]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001987B9EE80
+[2015.11.11-07.52.30:770][466]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000198E1514E0
+[2015.11.11-07.52.30:781][466]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2015.11.11-07.52.30:827][466]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2015.11.11-07.52.30:853][466]LeapPluginLog: LeapController::CleanupEventData Delete Called
+[2015.11.11-07.52.30:975][466]LogExit: Object subsystem successfully closed.
+[2015.11.11-07.52.30:992][466]LogD3D11RHI: Shutdown
+[2015.11.11-07.52.30:992][466]LogD3D11RHI: CleanupD3DDevice
+[2015.11.11-07.52.31:039][466]LogD3D11RHI: ~FD3D11DynamicRHI
+[2015.11.11-07.52.31:063][466]LogModuleManager: Shutting down and abandoning module CrashTracker (189)
+[2015.11.11-07.52.31:063][466]LogModuleManager: Shutting down and abandoning module SceneOutliner (188)
+[2015.11.11-07.52.31:063][466]LogModuleManager: Shutting down and abandoning module SuperSearch (187)
+[2015.11.11-07.52.31:064][466]LogModuleManager: Shutting down and abandoning module WidgetCarousel (186)
+[2015.11.11-07.52.31:064][466]LogModuleManager: Shutting down and abandoning module AddContentDialog (185)
+[2015.11.11-07.52.31:076][466]LogModuleManager: Shutting down and abandoning module EditorWidgets (184)
+[2015.11.11-07.52.31:076][466]LogModuleManager: Shutting down and abandoning module CollectionManager (183)
+[2015.11.11-07.52.31:076][466]LogModuleManager: Shutting down and abandoning module StatsViewer (182)
+[2015.11.11-07.52.31:076][466]LogModuleManager: Shutting down and abandoning module FoliageEdit (181)
+[2015.11.11-07.52.31:076][466]LogModuleManager: Shutting down and abandoning module LandscapeEditor (180)
+[2015.11.11-07.52.31:102][466]LogModuleManager: Shutting down and abandoning module ActorPickerMode (179)
+[2015.11.11-07.52.31:102][466]LogModuleManager: Shutting down and abandoning module GeometryMode (178)
+[2015.11.11-07.52.31:102][466]LogModuleManager: Shutting down and abandoning module TextureAlignMode (177)
+[2015.11.11-07.52.31:102][466]LogModuleManager: Shutting down and abandoning module BspMode (176)
+[2015.11.11-07.52.31:102][466]LogModuleManager: Shutting down and abandoning module PlacementMode (175)
+[2015.11.11-07.52.31:102][466]LogModuleManager: Shutting down and abandoning module AutomationWorker (174)
+[2015.11.11-07.52.31:102][466]LogModuleManager: Shutting down and abandoning module CharacterAI (173)
+[2015.11.11-07.52.31:102][466]LogModuleManager: Shutting down and abandoning module SmartSnapping (172)
+[2015.11.11-07.52.31:102][466]LogModuleManager: Shutting down and abandoning module ViewportSnapping (171)
+[2015.11.11-07.52.31:102][466]LogModuleManager: Shutting down and abandoning module LogVisualizer (170)
+[2015.11.11-07.52.31:102][466]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (169)
+[2015.11.11-07.52.31:114][466]LogModuleManager: Shutting down and abandoning module IntroTutorials (168)
+[2015.11.11-07.52.31:114][466]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (167)
+[2015.11.11-07.52.31:114][466]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (166)
+[2015.11.11-07.52.31:114][466]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (165)
+[2015.11.11-07.52.31:114][466]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (164)
+[2015.11.11-07.52.31:272][466]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (163)
+[2015.11.11-07.52.31:272][466]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (162)
+[2015.11.11-07.52.31:272][466]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (161)
+[2015.11.11-07.52.31:272][466]LogModuleManager: Shutting down and abandoning module MergeActors (160)
+[2015.11.11-07.52.31:280][466]LogModuleManager: Shutting down and abandoning module SizeMap (159)
+[2015.11.11-07.52.31:280][466]LogModuleManager: Shutting down and abandoning module TreeMap (158)
+[2015.11.11-07.52.31:287][466]LogModuleManager: Shutting down and abandoning module ReferenceViewer (157)
+[2015.11.11-07.52.31:287][466]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (156)
+[2015.11.11-07.52.31:287][466]LogModuleManager: Shutting down and abandoning module HardwareTargeting (155)
+[2015.11.11-07.52.31:287][466]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (154)
+[2015.11.11-07.52.31:287][466]LogModuleManager: Shutting down and abandoning module UndoHistory (153)
+[2015.11.11-07.52.31:287][466]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (152)
+[2015.11.11-07.52.31:287][466]LogModuleManager: Shutting down and abandoning module UserFeedback (151)
+[2015.11.11-07.52.31:287][466]LogModuleManager: Shutting down and abandoning module XmlParser (150)
+[2015.11.11-07.52.31:287][466]LogModuleManager: Shutting down and abandoning module Blutility (149)
+[2015.11.11-07.52.31:287][466]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (148)
+[2015.11.11-07.52.31:287][466]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (147)
+[2015.11.11-07.52.31:287][466]LogModuleManager: Shutting down and abandoning module InputBindingEditor (146)
+[2015.11.11-07.52.31:287][466]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (145)
+[2015.11.11-07.52.31:287][466]LogModuleManager: Shutting down and abandoning module SettingsEditor (144)
+[2015.11.11-07.52.31:287][466]LogModuleManager: Shutting down and abandoning module ProjectLauncher (143)
+[2015.11.11-07.52.31:287][466]LogModuleManager: Shutting down and abandoning module SessionFrontend (142)
+[2015.11.11-07.52.31:287][466]LogModuleManager: Shutting down and abandoning module ProfilerClient (141)
+[2015.11.11-07.52.31:293][466]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (140)
+[2015.11.11-07.52.31:293][466]LogModuleManager: Shutting down and abandoning module DeviceManager (139)
+[2015.11.11-07.52.31:293][466]LogModuleManager: Shutting down and abandoning module AutomationController (138)
+[2015.11.11-07.52.31:293][466]LogModuleManager: Shutting down and abandoning module AutomationWindow (137)
+[2015.11.11-07.52.31:303][466]LogModuleManager: Shutting down and abandoning module Layers (136)
+[2015.11.11-07.52.31:318][466]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (135)
+[2015.11.11-07.52.31:318][466]LogModuleManager: Shutting down and abandoning module DetailCustomizations (134)
+[2015.11.11-07.52.31:318][466]LogModuleManager: Shutting down and abandoning module PackagesDialog (133)
+[2015.11.11-07.52.31:318][466]LogModuleManager: Shutting down and abandoning module AssetRegistry (132)
+[2015.11.11-07.52.31:448][466]LogModuleManager: Shutting down and abandoning module Persona (131)
+[2015.11.11-07.52.31:455][466]LogModuleManager: Shutting down and abandoning module Kismet (130)
+[2015.11.11-07.52.31:455][466]LogModuleManager: Shutting down and abandoning module GraphEditor (129)
+[2015.11.11-07.52.31:455][466]LogModuleManager: Shutting down and abandoning module ClassViewer (128)
+[2015.11.11-07.52.31:455][466]LogModuleManager: Shutting down and abandoning module Toolbox (127)
+[2015.11.11-07.52.31:455][466]LogModuleManager: Shutting down and abandoning module ModuleUI (126)
+[2015.11.11-07.52.31:461][466]LogModuleManager: Shutting down and abandoning module MovieSceneTools (125)
+[2015.11.11-07.52.31:470][466]LogModuleManager: Shutting down and abandoning module OutputLog (124)
+[2015.11.11-07.52.31:470][466]LogModuleManager: Shutting down and abandoning module GammaUI (123)
+[2015.11.11-07.52.31:480][466]LogModuleManager: Shutting down and abandoning module Documentation (122)
+[2015.11.11-07.52.31:480][466]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (121)
+[2015.11.11-07.52.31:480][466]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (120)
+[2015.11.11-07.52.31:480][466]LogModuleManager: Shutting down and abandoning module AnalyticsET (119)
+[2015.11.11-07.52.31:480][466]LogModuleManager: Shutting down and abandoning module Analytics (118)
+[2015.11.11-07.52.31:480][466]LogModuleManager: Shutting down and abandoning module AITestSuite (117)
+[2015.11.11-07.52.31:480][466]LogModuleManager: Shutting down and abandoning module GameplayDebugger (116)
+[2015.11.11-07.52.31:480][466]LogModuleManager: Shutting down and abandoning module AIModule (115)
+[2015.11.11-07.52.31:480][466]LogModuleManager: Shutting down and abandoning module ProfilerService (114)
+[2015.11.11-07.52.31:590][466]LogModuleManager: Shutting down and abandoning module TaskGraph (113)
+[2015.11.11-07.52.31:600][466]LogModuleManager: Shutting down and abandoning module LeapMotion (112)
+[2015.11.11-07.52.31:612][466]LogModuleManager: Shutting down and abandoning module SlateRemote (111)
+[2015.11.11-07.52.31:612][466]LogModuleManager: Shutting down and abandoning module SteamVRController (110)
+[2015.11.11-07.52.31:612][466]LogModuleManager: Shutting down and abandoning module SteamVR (109)
+[2015.11.11-07.52.31:612][466]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (108)
+[2015.11.11-07.52.31:612][466]LogModuleManager: Shutting down and abandoning module OculusRift (107)
+[2015.11.11-07.52.31:612][466]LogModuleManager: Shutting down and abandoning module LeapMotionController (106)
+[2015.11.11-07.52.31:674][466]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (105)
+[2015.11.11-07.52.31:674][466]LogModuleManager: Shutting down and abandoning module CableComponent (104)
+[2015.11.11-07.52.31:674][466]LogModuleManager: Shutting down and abandoning module MessagingDebugger (103)
+[2015.11.11-07.52.31:709][466]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (102)
+[2015.11.11-07.52.31:709][466]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (101)
+[2015.11.11-07.52.31:709][466]LogModuleManager: Shutting down and abandoning module PluginBrowser (100)
+[2015.11.11-07.52.31:709][466]LogModuleManager: Shutting down and abandoning module EpicSurvey (99)
+[2015.11.11-07.52.31:709][466]LogModuleManager: Shutting down and abandoning module DesktopPlatform (98)
+[2015.11.11-07.52.31:709][466]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (97)
+[2015.11.11-07.52.31:709][466]LogModuleManager: Shutting down and abandoning module UObjectPlugin (96)
+[2015.11.11-07.52.31:709][466]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (95)
+[2015.11.11-07.52.31:709][466]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (94)
+[2015.11.11-07.52.31:709][466]LogModuleManager: Shutting down and abandoning module SourceControl (93)
+[2015.11.11-07.52.31:709][466]LogModuleManager: Shutting down and abandoning module GitSourceControl (92)
+[2015.11.11-07.52.31:709][466]LogModuleManager: Shutting down and abandoning module BlankPlugin (91)
+[2015.11.11-07.52.31:709][466]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (90)
+[2015.11.11-07.52.31:709][466]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (89)
+[2015.11.11-07.52.31:709][466]LogModuleManager: Shutting down and abandoning module MeshPaint (88)
+[2015.11.11-07.52.31:709][466]LogModuleManager: Shutting down and abandoning module SlateReflector (87)
+[2015.11.11-07.52.31:709][466]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (86)
+[2015.11.11-07.52.31:710][466]LogModuleManager: Shutting down and abandoning module HotReload (85)
+[2015.11.11-07.52.31:710][466]LogModuleManager: Shutting down and abandoning module MainFrame (84)
+[2015.11.11-07.52.31:710][466]LogModuleManager: Shutting down and abandoning module LevelEditor (83)
+[2015.11.11-07.52.31:711][466]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
+[2015.11.11-07.52.31:711][466]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
+[2015.11.11-07.52.31:711][466]LogModuleManager: Shutting down and abandoning module UdpMessaging (80)
+[2015.11.11-07.52.31:812][466]LogModuleManager: Shutting down and abandoning module Paper2D (79)
+[2015.11.11-07.52.31:812][466]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (78)
+[2015.11.11-07.52.31:820][466]LogModuleManager: Shutting down and abandoning module Media (77)
+[2015.11.11-07.52.31:820][466]LogModuleManager: Shutting down and abandoning module WmfMedia (76)
+[2015.11.11-07.52.31:821][466]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (75)
+[2015.11.11-07.52.31:821][466]LogModuleManager: Shutting down and abandoning module PropertyEditor (74)
+[2015.11.11-07.52.31:821][466]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (73)
+[2015.11.11-07.52.31:821][466]LogModuleManager: Shutting down and abandoning module FunctionalTesting (72)
+[2015.11.11-07.52.31:821][466]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (71)
+[2015.11.11-07.52.31:821][466]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (70)
+[2015.11.11-07.52.31:821][466]LogModuleManager: Shutting down and abandoning module MessageLog (69)
+[2015.11.11-07.52.31:821][466]LogModuleManager: Shutting down and abandoning module Sequencer (68)
+[2015.11.11-07.52.31:821][466]LogModuleManager: Shutting down and abandoning module AssetTools (67)
+[2015.11.11-07.52.31:821][466]LogModuleManager: Shutting down and abandoning module UMGEditor (66)
+[2015.11.11-07.52.31:821][466]LogModuleManager: Shutting down and abandoning module UMG (65)
+[2015.11.11-07.52.31:821][466]LogModuleManager: Shutting down and abandoning module Slate (64)
+[2015.11.11-07.52.31:821][466]LogModuleManager: Shutting down and abandoning module EditorStyle (63)
+[2015.11.11-07.52.31:826][466]LogModuleManager: Shutting down and abandoning module SessionServices (62)
+[2015.11.11-07.52.31:826][466]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (61)
+[2015.11.11-07.52.31:826][466]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (60)
+[2015.11.11-07.52.31:826][466]LogModuleManager: Shutting down and abandoning module XAudio2 (59)
+[2015.11.11-07.52.31:826][466]LogModuleManager: Shutting down and abandoning module Networking (57)
+[2015.11.11-07.52.31:826][466]LogModuleManager: Shutting down and abandoning module Core (56)
+[2015.11.11-07.52.31:826][466]LogModuleManager: Shutting down and abandoning module KismetCompiler (55)
+[2015.11.11-07.52.31:826][466]LogModuleManager: Shutting down and abandoning module PhysXFormats (54)
+[2015.11.11-07.52.31:826][466]LogModuleManager: Shutting down and abandoning module MeshUtilities (53)
+[2015.11.11-07.52.31:826][466]LogModuleManager: Shutting down and abandoning module DerivedDataCache (52)
+[2015.11.11-07.52.31:871][466]LogDerivedDataCache: Shutdown
+[2015.11.11-07.52.31:871][466]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (51)
+[2015.11.11-07.52.31:871][466]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (50)
+[2015.11.11-07.52.31:871][466]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (49)
+[2015.11.11-07.52.31:871][466]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (48)
+[2015.11.11-07.52.31:871][466]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (47)
+[2015.11.11-07.52.31:871][466]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (46)
+[2015.11.11-07.52.31:871][466]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (45)
+[2015.11.11-07.52.31:871][466]LogModuleManager: Shutting down and abandoning module ImageWrapper (44)
+[2015.11.11-07.52.31:871][466]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (43)
+[2015.11.11-07.52.31:871][466]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (42)
+[2015.11.11-07.52.31:871][466]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (41)
+[2015.11.11-07.52.31:871][466]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (40)
+[2015.11.11-07.52.31:871][466]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (39)
+[2015.11.11-07.52.31:871][466]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (38)
+[2015.11.11-07.52.31:871][466]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (37)
+[2015.11.11-07.52.31:871][466]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (36)
+[2015.11.11-07.52.31:871][466]LogModuleManager: Shutting down and abandoning module Messaging (35)
+[2015.11.11-07.52.31:871][466]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (34)
+[2015.11.11-07.52.31:871][466]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (33)
+[2015.11.11-07.52.31:871][466]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (32)
+[2015.11.11-07.52.31:871][466]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (31)
+[2015.11.11-07.52.31:871][466]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (30)
+[2015.11.11-07.52.31:871][466]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (29)
+[2015.11.11-07.52.31:871][466]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (28)
+[2015.11.11-07.52.31:871][466]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (27)
+[2015.11.11-07.52.31:871][466]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (26)
+[2015.11.11-07.52.31:871][466]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (25)
+[2015.11.11-07.52.31:871][466]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (24)
+[2015.11.11-07.52.31:871][466]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (23)
+[2015.11.11-07.52.31:871][466]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (22)
+[2015.11.11-07.52.31:871][466]LogModuleManager: Shutting down and abandoning module DesktopTargetPlatform (21)
+[2015.11.11-07.52.31:871][466]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.11.11-07.52.31:871][466]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.11.11-07.52.31:872][466]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.11.11-07.52.31:872][466]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.11.11-07.52.31:872][466]LogModuleManager: Shutting down and abandoning module HTTP (15)
+[2015.11.11-07.52.31:872][466]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.11.11-07.52.31:872][466]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.11.11-07.52.31:872][466]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.11.11-07.52.31:872][466]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.11.11-07.52.31:872][466]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.11.11-07.52.31:875][466]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.11.11-07.52.31:875][466]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.11.11-07.52.31:875][466]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.11.11-07.52.31:875][466]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.11.11-07.52.31:875][466]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.11.11-07.52.31:875][466]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.11.11-07.52.31:875][466]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.11.11-07.52.31:875][466]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.11.11-07.52.31:875][466]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.11.11-07.52.31:877][466]LogExit: Exiting.
+[2015.11.11-07.52.31:898][466]Log file closed, 11/11/15 16:52:31
